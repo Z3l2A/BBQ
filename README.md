@@ -1,4 +1,4 @@
-![image](https://github.com/Z3l2A/BBQ/assets/115247664/b30e5559-dc6b-49fa-9e28-fae6e741d35e)### BBQ file repository
+### BBQ file repository
 ## Microsoft Edge
 # developer menu
 edge://edge-urls/
