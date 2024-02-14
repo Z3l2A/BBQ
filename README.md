@@ -26,6 +26,14 @@ MicrosoftEdgePolicyTemplates.cab\MicrosoftEdgePolicyTemplates.zip\windows\admx
 I used 7-Zip from https://7-zip.org but you can open it with explorer too, it will but ask you on explorer where to extract the folder what makes it more complicated coz it will extract the files chaotic. Select a folder where nothing is inside, then extract them in there.
 ![image](https://github.com/Z3l2A/BBQ/assets/115247664/f0000498-5818-4c52-a6a8-1988ec5abfaf)
 
+In the extracted files, go to ADMX:
+![image](https://github.com/Z3l2A/BBQ/assets/115247664/f6ad7e29-1d62-4c10-ae69-46ea88c2d3e7)
+Select preferably all files (or just de-DE with the three msedge.admx, msedgeupdate.admx, msedgewebview2.admx) and place them there:
+C:\Windows\PolicyDefinitions
+Afterwards, you will see new administrative templates in C:\Windows\System32gpedit.msc as shown below!
+![image](https://github.com/Z3l2A/BBQ/assets/115247664/019baeb0-56cb-4ef0-9500-43dab2550723)
+Computer policies by default override user policies. If you just want to let them change how your account works, use user policies. User policies set by yourself are only visible and active on yourself -, not on anyone else. Computer policies affect everyone & everything, most likely.
+
 ## Latitude 7400 2-in-1 UEFI/BIOS
 
 # boot instantly into BIOS/UEFI
