@@ -12,6 +12,7 @@ edge://flags
 
 # gpedit.msc administrative computer & user templates for Microsoft Edge
 Download the file from "Get policy files" after setting it to the highest version as shown on the image below.
+![href](https://www.microsoft.com/en-us/edge/business/download?form=MA13FJ)
 ![image](https://github.com/Z3l2A/BBQ/assets/115247664/43cd9bf4-76bc-436e-b891-21c76509a22e)
 They are not the same policies if you would easily click & download from above "Download Windows 64-bit Policy".
 Both files downloaded, you would see inside they have different versions.
