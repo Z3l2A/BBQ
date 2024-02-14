@@ -3,7 +3,7 @@
 ## Microsoft Edge
 
 # developer menu
-edge://edge-urls/
+edge://edge-urls
 ![image](https://github.com/Z3l2A/BBQ/assets/115247664/94c34ff3-31b5-4ab4-9b3c-2da8200df265)
 
 # experimental features
@@ -14,10 +14,17 @@ edge://flags
 Download the file from "Get policy files" after setting it to the highest version as shown on the image below.
 https://www.microsoft.com/en-us/edge/business/download?form=MA13FJ
 ![image](https://github.com/Z3l2A/BBQ/assets/115247664/43cd9bf4-76bc-436e-b891-21c76509a22e)
+
 They are not the same policies if you would easily click & download from above "Download Windows 64-bit Policy".
 Both files downloaded, you would see inside they have different versions.
 ![image](https://github.com/Z3l2A/BBQ/assets/115247664/5cf2a53b-4fa3-43e4-a3f2-18b4dad973da)
 I have yet not experienced downloading older policies is better, but experienced the benefit of newer features of newer policies.
+
+You look for this place inside the file:
+![image](https://github.com/Z3l2A/BBQ/assets/115247664/34a0e1db-b5d2-4c8f-b5ba-116e5e4cd6ea)
+MicrosoftEdgePolicyTemplates.cab\MicrosoftEdgePolicyTemplates.zip\windows\admx
+I used 7-Zip from https://7-zip.org but you can open it with explorer too, it will but ask you on explorer where to extract the folder what makes it more complicated coz it will extract the files chaotic. Select a folder where nothing is inside, then extract them in there.
+![image](https://github.com/Z3l2A/BBQ/assets/115247664/f0000498-5818-4c52-a6a8-1988ec5abfaf)
 
 ## Latitude 7400 2-in-1 UEFI/BIOS
 
